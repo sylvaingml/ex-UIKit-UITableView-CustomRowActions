@@ -2,8 +2,9 @@
 //  AppDelegate.swift
 //  SwipeActions
 //
-//  Created by Sylvain on 07/02/2015.
-//  Copyright (c) 2015 S.G. inTech. All rights reserved.
+//  Created by Sylvain Gamel on 07/02/2015.
+//
+// Nothing special here, just the raw class built from template.
 //
 
 import UIKit

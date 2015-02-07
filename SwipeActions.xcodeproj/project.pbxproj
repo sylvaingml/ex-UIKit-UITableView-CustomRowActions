@@ -8,45 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		E4BDCB221A8656FE0088804A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDCB211A8656FE0088804A /* AppDelegate.swift */; };
-		E4BDCB241A8656FE0088804A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDCB231A8656FE0088804A /* ViewController.swift */; };
 		E4BDCB271A8656FE0088804A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4BDCB251A8656FE0088804A /* Main.storyboard */; };
 		E4BDCB291A8656FE0088804A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4BDCB281A8656FE0088804A /* Images.xcassets */; };
 		E4BDCB2C1A8656FE0088804A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4BDCB2A1A8656FE0088804A /* LaunchScreen.xib */; };
-		E4BDCB381A8656FE0088804A /* SwipeActionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDCB371A8656FE0088804A /* SwipeActionsTests.swift */; };
+		E4BDCB421A86574B0088804A /* StaticTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4BDCB411A86574B0088804A /* StaticTable.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		E4BDCB321A8656FE0088804A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E4BDCB141A8656FE0088804A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E4BDCB1B1A8656FE0088804A;
-			remoteInfo = SwipeActions;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		E4BDCB1C1A8656FE0088804A /* SwipeActions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeActions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4BDCB201A8656FE0088804A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4BDCB211A8656FE0088804A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4BDCB231A8656FE0088804A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4BDCB261A8656FE0088804A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4BDCB281A8656FE0088804A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4BDCB2B1A8656FE0088804A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		E4BDCB311A8656FE0088804A /* SwipeActionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwipeActionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E4BDCB361A8656FE0088804A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4BDCB371A8656FE0088804A /* SwipeActionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeActionsTests.swift; sourceTree = "<group>"; };
+		E4BDCB411A86574B0088804A /* StaticTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E4BDCB191A8656FE0088804A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E4BDCB2E1A8656FE0088804A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -60,7 +39,6 @@
 			isa = PBXGroup;
 			children = (
 				E4BDCB1E1A8656FE0088804A /* SwipeActions */,
-				E4BDCB341A8656FE0088804A /* SwipeActionsTests */,
 				E4BDCB1D1A8656FE0088804A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				E4BDCB1C1A8656FE0088804A /* SwipeActions.app */,
-				E4BDCB311A8656FE0088804A /* SwipeActionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -78,7 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				E4BDCB211A8656FE0088804A /* AppDelegate.swift */,
-				E4BDCB231A8656FE0088804A /* ViewController.swift */,
+				E4BDCB411A86574B0088804A /* StaticTable.swift */,
 				E4BDCB251A8656FE0088804A /* Main.storyboard */,
 				E4BDCB281A8656FE0088804A /* Images.xcassets */,
 				E4BDCB2A1A8656FE0088804A /* LaunchScreen.xib */,
@@ -91,23 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				E4BDCB201A8656FE0088804A /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		E4BDCB341A8656FE0088804A /* SwipeActionsTests */ = {
-			isa = PBXGroup;
-			children = (
-				E4BDCB371A8656FE0088804A /* SwipeActionsTests.swift */,
-				E4BDCB351A8656FE0088804A /* Supporting Files */,
-			);
-			path = SwipeActionsTests;
-			sourceTree = "<group>";
-		};
-		E4BDCB351A8656FE0088804A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E4BDCB361A8656FE0088804A /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -132,24 +92,6 @@
 			productReference = E4BDCB1C1A8656FE0088804A /* SwipeActions.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E4BDCB301A8656FE0088804A /* SwipeActionsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E4BDCB3E1A8656FE0088804A /* Build configuration list for PBXNativeTarget "SwipeActionsTests" */;
-			buildPhases = (
-				E4BDCB2D1A8656FE0088804A /* Sources */,
-				E4BDCB2E1A8656FE0088804A /* Frameworks */,
-				E4BDCB2F1A8656FE0088804A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E4BDCB331A8656FE0088804A /* PBXTargetDependency */,
-			);
-			name = SwipeActionsTests;
-			productName = SwipeActionsTests;
-			productReference = E4BDCB311A8656FE0088804A /* SwipeActionsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -161,10 +103,6 @@
 				TargetAttributes = {
 					E4BDCB1B1A8656FE0088804A = {
 						CreatedOnToolsVersion = 6.1.1;
-					};
-					E4BDCB301A8656FE0088804A = {
-						CreatedOnToolsVersion = 6.1.1;
-						TestTargetID = E4BDCB1B1A8656FE0088804A;
 					};
 				};
 			};
@@ -182,7 +120,6 @@
 			projectRoot = "";
 			targets = (
 				E4BDCB1B1A8656FE0088804A /* SwipeActions */,
-				E4BDCB301A8656FE0088804A /* SwipeActionsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -198,13 +135,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4BDCB2F1A8656FE0088804A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -212,28 +142,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4BDCB241A8656FE0088804A /* ViewController.swift in Sources */,
+				E4BDCB421A86574B0088804A /* StaticTable.swift in Sources */,
 				E4BDCB221A8656FE0088804A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E4BDCB2D1A8656FE0088804A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4BDCB381A8656FE0088804A /* SwipeActionsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		E4BDCB331A8656FE0088804A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E4BDCB1B1A8656FE0088804A /* SwipeActions */;
-			targetProxy = E4BDCB321A8656FE0088804A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		E4BDCB251A8656FE0088804A /* Main.storyboard */ = {
@@ -352,40 +266,6 @@
 			};
 			name = Release;
 		};
-		E4BDCB3F1A8656FE0088804A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwipeActionsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeActions.app/SwipeActions";
-			};
-			name = Debug;
-		};
-		E4BDCB401A8656FE0088804A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = SwipeActionsTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwipeActions.app/SwipeActions";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -403,14 +283,6 @@
 			buildConfigurations = (
 				E4BDCB3C1A8656FE0088804A /* Debug */,
 				E4BDCB3D1A8656FE0088804A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		E4BDCB3E1A8656FE0088804A /* Build configuration list for PBXNativeTarget "SwipeActionsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4BDCB3F1A8656FE0088804A /* Debug */,
-				E4BDCB401A8656FE0088804A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
