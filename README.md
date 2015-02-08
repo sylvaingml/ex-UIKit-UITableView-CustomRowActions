@@ -18,7 +18,7 @@ This project is written in Swift. You'll find two classes:
 
 The data source must implement the method
 
-```
+```swift
 func tableView(
 	tableView: UITableView, 
 	commitEditingStyle editingStyle: UITableViewCellEditingStyle, 
@@ -35,7 +35,7 @@ This part of the job is implemented by the table view delegate.
 
 You need to implement the method:
 
-```
+```swift
 override func tableView(
 	tableView: UITableView,
 	editActionsForRowAtIndexPath indexPath: NSIndexPath
@@ -47,13 +47,13 @@ override func tableView(
 
 The `rowActions` value returned is a variable in the delegate object. 
 
-```
+```swift
 var rowActions = [ UITableViewRowAction ]()
 ```
 
 In the example it is initialized when view is ready to be displayed.
 
-```
+```swift
 override internal func viewDidLoad()
 {
 	// ... do stuff before
